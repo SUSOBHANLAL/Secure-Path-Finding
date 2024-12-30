@@ -47,7 +47,7 @@ def get_paths():
         db_connection = mysql.connector.connect(
             host="127.0.0.1",
             user="root",
-            password="admin",
+            password="root",
             database=orig_db
         )
         cursor = db_connection.cursor()
